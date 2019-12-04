@@ -1,4 +1,1 @@
-math formular
-==================
-2019009870 Kim jeong woo
-------------------------
+### control game, 2019009870 kim jeong woo

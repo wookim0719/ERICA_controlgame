@@ -9,4 +9,10 @@ main class
 
 
 ### 클래스 GameFrame
-game window 
+game window
+
+
+### 클래스 coordinate
+오브젝트들의  좌표를  추가 및 수정해주는 메소드
+좌표들간의 성분차이를 알려주는 메소드
+

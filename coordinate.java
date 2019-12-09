@@ -28,5 +28,19 @@ public class coordinate{
 	public double getY(){
 		return y;
 	}
+	public void plus(coordinate v){
+		x += v.x;
+		y += v.y;
+	}
 
+	public void flopX(){
+		x *= -1;
+	}
+
+	public void flopY(){
+		y *= -1;
+	}
+
+	
+}
 

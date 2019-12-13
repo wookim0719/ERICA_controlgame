@@ -28,3 +28,7 @@ game window
 
 ### 클래스 Character
 플레이어가 조종하는 캐릭터의 속성을 설정하는 클래스
+
+
+### 클래스 Assign
+Attacker와  Character의 배열을 지정해주고 플레이어의 생존여부를 나타내는 클래스

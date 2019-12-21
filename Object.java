@@ -63,7 +63,7 @@ public abstract class Object {
 	}
 
 	public void move(int xdir, int ydir){
-		Coordinate c = new Coordinate(xdir,  ydir);
+		coordinate c = new coordinate(xdir,  ydir);
 		v.setSize(speed);//v벡터의 크기를 구하고 speed값에 크기를 나누어서 비율을 구한 후 각각 x, y에 비율을 곱한다.
 		pos.plus(c); //중심좌표에 위의 값을 더해준다 
 		if(invalidPos()){
@@ -72,7 +72,7 @@ public abstract class Object {
 	}
 	
 	public static double distance(Object a, Object b){
-		return a.getCoordinate().getMinus(b.getCoordinate()).getSize(); //b의 위치를 알아온 후 a의 위치를 알아와서 두 위치를 빼서 사이즈를 측정한다.
+		return a.getcoordinate().getMinus(b.getcoordinate()).getSize(); //b의 위치를 알아온 후 a의 위치를 알아와서 두 위치를 빼서 사이즈를 측정한다.
 	}
 	public static boolean collide(Object a, Object b){//a의 반지름과 b의 반지름의 합이 거리보다 클때 true 접촉해있으면 False를 반환 
 		return a.getRadius()+b.getRadius() > distance(a, b);

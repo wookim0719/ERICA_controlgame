@@ -40,7 +40,20 @@ public class coordinate{
 	public void flopY(){
 		y *= -1;
 	}
-
 	
+	public Vector getFlopX(){
+		return new coordinate(-x, y);
+
+	public Vector getFlopY(){
+		return new coordinate(x, -y);
+	}
+	
+	public void matchDirection(coordinate v){
+		set(getMatchDirection(v));
+	}
+	public Vector getMatchDirection(coordinate tv){
+		coordinate v = tv.copy();
+		v.setSize(getSize());
+		return v;	
 }
 

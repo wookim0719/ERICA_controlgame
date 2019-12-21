@@ -7,11 +7,6 @@
 main class
 
 
-
-### 클래스 GameFrame
-game window
-
-
 ### 클래스 coordinate
 오브젝트들의  좌표를  추가 및 수정해주는 메소드
 좌표들간의 성분차이를 알려주는 메소드
@@ -32,3 +27,6 @@ game window
 
 ### 클래스 Assign
 Attacker와  Character의 배열을 지정해주고 플레이어의 생존여부를 나타내는 클래스
+
+### 클래스 keyControl
+방향키를 이용하여 조종할 수 있게 도움을 주는 클래스

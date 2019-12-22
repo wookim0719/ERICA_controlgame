@@ -9,7 +9,7 @@ public class DodgeGame {
 	public static void main(String[] args) {
 		Runnable dodge = new DodgeFrame();
 		Thread t = new Thread(dodge);
-		t.start();//thread 사용법이고 구현이유는 점수집계와 초시계 때문
+		t.start();//thread 사용
 			}
 }
 
